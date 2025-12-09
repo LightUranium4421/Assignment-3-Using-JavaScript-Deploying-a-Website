@@ -5,12 +5,12 @@
 let submitButton = document.getElementById("submit-button");
 
 submitButton.addEventListener("click", () => {
-    document.body.replaceChildren();
+  document.body.replaceChildren();
 
-    let newElement = document.createElement("p")
-    newElement.innerHTML = "Thank you for your message" 
+  let newElement = document.createElement("p");
+  newElement.innerHTML = "Thank you for your message";
 
-    newElement.style.fontSize = "24px"
+  newElement.style.fontSize = "24px";
 
-    document.body.appendChild(newElement)
-})
+  document.body.appendChild(newElement);
+});
