@@ -1,4 +1,4 @@
-/************* your name: 
+/************* your name: public repo
 
 INSTRUCTIONS:
 Comments starting with TO-DO have been included in this file to describe the needed styling: please translate these to the appropriate CSS declarations. 
@@ -24,7 +24,9 @@ body {
 
 /* TO DO: all elements with the .flex class applied are to be made into flex-box containers. */
 
-
+.flex {
+    display: flex;
+}
  
 
 /************* site-wide text styling *************/
@@ -41,12 +43,46 @@ body {
         - change the text colour to white, and 
         - change the cursor to pointer.
 */
+h1 {
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.large-text {
+    font-size: 24px;
+}
+
+.fake-button {
+    text-align: center;
+    background-color: #E5AF42;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 
 
+main a:hover, footer a:hover {
+    text-decoration: underline;
+}
 
-
-
-
+.fake-button:hover, .blue-hover:hover {
+    text-decoration: underline;
+    background-color: #4278e5;
+    color: white;
+    cursor: pointer;
+}
 
 
 /************* header/footer styling *************/
@@ -59,9 +95,29 @@ body {
     - the footer will be 60px tall, have a font-weight of 200, and the text within will be centered vertically and horizontally.
 */
 
+header, footer {
+    background-color: #E5AF42;
+}
 
+header {
+    height: 150px;
+    margin-bottom: 25px;
+}
 
+header img {
+    width: 100px;
+    margin: 25px 0px 25px 25px ;
+}
 
+footer {
+    margin-top: 50px;
+    height: 60px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /************* index page *************/
@@ -73,6 +129,21 @@ body {
     - each fake-button on this page will be 250px wide with 150px of space between them.
     - the pair of fake-buttons will be centered on the page. HINT: can calculate the required margin to make them appear to be centered.
 */
+
+main img {
+    width: 300px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+main p {
+    margin-bottom: 12px;
+}
+
+.fake-button {
+    width: 250px;
+    margin: 0 75px;
+}
 
 
 
