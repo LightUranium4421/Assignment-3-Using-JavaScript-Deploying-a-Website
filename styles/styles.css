@@ -164,9 +164,44 @@ main p {
 
 */
 
+.booking-page {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+}
 
+.day-selector {
+    margin-bottom: 12px;
+    gap: 20px;
+    justify-content: center;
+}
 
+.booking-page li, .small-button {
+    border: 1px solid black;
+}
 
+.booking-page li {
+    width: 60px;
+}
+
+.small-button {
+    padding: 5px;
+}
+
+.top-margin {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+#clear-button {
+    width: 200px;
+    justify-self: center;
+}
+
+.clicked {
+    background-color: #E5AF42;
+}
 
 
 
