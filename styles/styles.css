@@ -204,13 +204,6 @@ main p {
 }
 
 
-
-
-
-
-
-
-
 /************* contact page *************/
 /* TO DO:
     - the main section of the .contact page will be 420px tall, and centered.
@@ -220,6 +213,37 @@ main p {
     - the edges of the button will line up exactly with the text-area element. HINT: time for some math!
 */
 
+.contact {
+    width: 500px;
+    margin: 0 auto;
+}
 
+.contact label {
+    width: 150px;
+    text-align: right;
+}
+
+.contact input, .contact textarea {
+    width: 300px;
+    margin-left: 24px;
+}
+
+.contact textarea {
+    height: 150px;
+}
+
+form input, form textarea, button {
+    border: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.contact .fake-button {
+    width: 307px;
+    position: relative;
+    left: 99px;
+}
 
 
